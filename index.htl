@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deepakkumar Rathour - Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #f4f6f9; color: #333;
+    }
+    header {
+      background: #2c3e50; color: white;
+      text-align: center; padding: 40px 20px;
+    }
+    header h1 { margin: 0; font-size: 2.5em; }
+    header p { margin: 8px 0; font-size: 1.1em; }
+    section {
+      padding: 30px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+    ul { line-height: 1.6; padding-left: 20px; }
+    .contact a {
+      color: #f1c40f; text-decoration: none;
+      font-weight: bold;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 25px;
+      background: #2980b9;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1em;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #1f6391;
+    }
+    footer {
+      background: #2c3e50; color: white;
+      text-align: center; padding: 20px;
+      margin-top: 20px;
+      font-size: 0.9em;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header h1 { font-size: 2em; }
+      header p { font-size: 1em; }
+      .btn { padding: 10px 20px; font-size: 0.9em; }
+      section { padding: 20px 15px; }
+    }
+
+    @media (max-width: 480px) {
+      header { padding: 25px 15px; }
+      header h1 { font-size: 1.7em; }
+      header p { font-size: 0.9em; }
+      .btn { padding: 8px 18px; font-size: 0.85em; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Deepakkumar Rathour</h1>
+  <p>Enthusiastic fresher skilled in Cloud, DevOps, and Automation Tools</p>
+  <p class="contact">
+    📞 +91 7264940479 | 
+    📧 <a href="mailto:rathourdeepakkumarjofficial@gmail.com">rathourdeepakkumarjofficial@gmail.com</a><br>
+    🔗 <a href="https://www.linkedin.com/in/deepakkumar-rathour-793905211" target="_blank">LinkedIn</a> |
+    💻 <a href="https://github.com/DeepakkumarRathour?tab=repositories" target="_blank">GitHub</a>
+  </p>
+  <!-- Resume Download Button -->
+  <a class="btn" href="Rathour_Deepak_Resume.pdf" download>📄 Download Resume</a>
+</header>
+
+<section>
+  <h2>Skills</h2>
+  <ul>
+    <li>AWS Cloud, Terraform, Linux, Ansible, Podman, Docker, Kubernetes</li>
+    <li>Jenkins (CI/CD), Prometheus, Grafana, Git & GitHub</li>
+    <li>Networking, Shell Scripting</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Work Experience</h2>
+  <p><strong>Intern – CoreXtech IT Services Pvt, Ltd. (Remote)</strong> | Feb 2025 – July 2025</p>
+  <ul>
+    <li>Designed and deployed AWS infrastructure (EC2, S3, IAM, VPC, RDS).</li>
+    <li>Automated provisioning with Terraform & CloudFormation.</li>
+    <li>Configured IAM roles, policies, and secure access controls.</li>
+    <li>Monitored system performance using CloudWatch.</li>
+    <li>Implemented cloud security best practices.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <p><strong>B.Tech. Computer Science & Engineering</strong> | M.S Bidve Engineering College, DBATU <br>
+  Dec 2021 – June 2024 | CGPA: 8.36/10</p>
+  <p><em>Relevant Coursework:</em> Data Structures, Databases, Operating Systems, Networks, Machine Learning, Blockchain, Information Retrieval.</p>
+</section>
+
+<section>
+  <h2>Projects</h2>
+  <ul>
+    <li><strong>S3 Metadata Storage:</strong> AWS Lambda + DynamoDB to automatically store file metadata.</li>
+    <li><strong>AWS CloudFormation Provisioning:</strong> Automated setup of S3, VPC, EC2, Security Groups.</li>
+    <li><strong>Terraform Remote State:</strong> Configured S3 backend for state storage.</li>
+    <li><strong>Log Analyzer Tool (Dockerized):</strong> Bash tool for log monitoring with Docker + Cron automation.</li>
+    <li><strong>Archive Large Files:</strong> Shell script for compressing and archiving to manage disk space.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Certificates</h2>
+  <ul>
+    <li>Oracle Database SQL Certified Associate (July – Sept 2024)</li>
+    <li>Linux Basics to Advance (March – June 2025)</li>
+    <li>AWS Solution Architect - Associate (March – Aug 2025)</li>
+  </ul>
+</section>
+
+<footer>
+  <p>© 2025 Deepakkumar Rathour | Portfolio</p>
+</footer>
+
+</body>
+</html>
